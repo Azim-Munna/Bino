@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700,800|Open+Sans|Roboto0i,900,900i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
-
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300i,700|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
 * {
     margin: 0;
     padding: 0;
@@ -8,14 +7,19 @@
 body {
     color: #666;
     font-size: 17px;
-     font-family: 'Roboto', sans-serif; 
+     
+font-family: 'Open Sans', sans-serif;
 
 }
-
-.font {
-    
-font-family: 'Montserrat', sans-serif;
+ @font-face{
+    font-family:Lovelo,sans-serif;
+    src:url("assest/fonts/Lovelo Black.otf") format('OTF');
+    /*src:url("assest/fonts/Lovelo Line Bold.otf");*/
+    /*src:url("assest/fonts/Lovelo Line Light.otf");*/
+    font-weight: normal;
+    font-style: normal;
 }
+ 
 
 a {
     text-decoration: none !important;
@@ -27,6 +31,7 @@ ul {
 
 nav ul li {
     display: inline-block;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 
 h1,
@@ -74,7 +79,7 @@ p {
 }
 
 .sectionp {
-    padding: 100px 0;
+    padding: 70px 0;
 }
 
 img {
