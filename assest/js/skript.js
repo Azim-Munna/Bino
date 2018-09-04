@@ -98,6 +98,8 @@ $('.filter_sec').isotope({
          paddingTop: heightM,
          paddingBottom: heightM
      });*/
+     // steller parealx fffect 
+     $('#mar_single_content_area').stellar();
 // single member pading top and down
  var heig_img= $(".single_member_img").height();
  var heig_content= $(".sigle_mem_content").height();

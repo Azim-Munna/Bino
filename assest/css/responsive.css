@@ -178,4 +178,63 @@ span.dark {
     padding-top: 25px !IMPORTANT;
     padding-bottom: 25px !important;
 }
+/*for mar single page responisve */
+.mar_single_content_area {
+    background-image: inherit !important;
+}
+
+.mar_single_content_are {
+    width:  100%;
+    padding:  inherit;
+    margin-top:  40px;
+}
+
+.mar_single_img {
+    float: inherit;
+    width:  100%;
+}
+
+.mar_content_title h2 {
+    font-size:  24px;
+    line-height:  30px;
+}
+
+.mar_content_title h4 {
+    font-size:  20px;
+    line-height: 28px;
+    padding:  10px 0;
+}
+.mar_b {
+    width:  250px;
+    /* margin:  0 auto; */
+    /* text-align:  center; */
+}
+
+.mar_btn {
+    text-align:  center;
+}
+
+.f_s_ic li a i {
+    margin:  0px;
+    font-size: 20px;
+}
+
+.fo_menu {
+    border:  none;
+    padding: 0px 0;
+}
+
+.fo_menu {
+    /* text-align:  left; */
+}
+
+.fo_menu li {
+    margin-left:  6px;
+    margin-top:  15px;
+}
+
+.f_text {
+    margin-top: 0px;
+}
+/*end meri responsive */
 }

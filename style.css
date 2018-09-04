@@ -230,7 +230,7 @@ span.dark {
 }
 
 footer.footer-section {
-    background:  #282b37;
+    background: #222;
     position:  relative;
 }
 
@@ -264,8 +264,10 @@ ul.fo_menu li a {
 }
 
 .fo_menu li a:hover {
-    color:  #fe5700;
+    color: #fe5700 !important;
     opacity: 0.8;
+    border-bottom:  1px solid;
+    /* border-color:  #fff; */
 }
 
 .fo_menu .active-pr a {
