@@ -6,7 +6,7 @@
     position:  relative;
 }
 .main-section {
-    background-image: url("assest/img/mn.jpg");
+    /* background-image: url("assest/img/mn.jpg"); */
     height: 800px;
     position: relative;
     z-index: 1;
@@ -61,4 +61,25 @@
 .text_item h2 {
     text-align: left;
     /*padding-left: 20px;*/
+}
+.main-section:before {
+    background-image: url("assest/img/mn.jpg");
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+
+/*frency area */
+
+.frency_img_area img {
+    width: 25%;
+    float: left;
+}
+.fancybox-toolbar {
+    display: none;
 }
