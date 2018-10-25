@@ -15,21 +15,13 @@
          center: false,
          items: 2,
          loop: true,
-         autoplay:true,
+         autoplay:false,
          margin: 20,
           nav: true,
+          smartSpeed:250,
           navText:['<i class="fas fa-long-arrow-alt-right"></i>','<i class="fas fa-long-arrow-alt-left"></i>']
           
-     }); $(".awol_carosel_area1").owlCarousel({
-         center: false,
-         items: 2,
-         loop: true,
-         autoplay:true,
-         margin: 20,
-          nav: true,
-          navText:['<i class="fas fa-long-arrow-alt-right"></i>','<i class="fas fa-long-arrow-alt-left"></i>']
-          
-     });
+     }); 
 
  $(".owl-loaded ").addClass("owl-carousel");
 
