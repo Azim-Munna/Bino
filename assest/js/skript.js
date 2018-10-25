@@ -1,24 +1,14 @@
 (function($) {
     "use strict"
 
-$(".text_slide").owlCarousel({
-         center: true,
-         items: 1,
-         loop: true,
-         autoplay:true,
-         margin: 20,
-        nav: false,
-        mouseDrag:false,
-         // smartSpeed:200,slideInUp slideOutUp
-         animateOut: 'slideOutUp',
-  animateIn: 'slideInUp'
-        });
- $(".owl-loaded ").addClass("owl-carousel");
+ $('.fade_slide_area').slick({
+  dots: false,
+  infinite: true,
+  autoplay: true,
+  autoplaySpeed: 1500,
+  speed: 500,
+  fade: true,
+  cssEase: 'linear'
+});
 
-var win_width=$(window).width();
-if(win_width>767){
-var windowH = $(window).height();
-$(".main-section").css("height", windowH + "px");
-}
-// alert(win_width);
 })(jQuery);
