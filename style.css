@@ -55,3 +55,84 @@ button.slick-prev.slick-arrow {
 button.slick-next.slick-arrow {
     display: none !IMPORTANT;
 }
+
+section.awol_carosel_section {}
+
+.owl-nav {
+    position: absolute;
+    width: 100%;
+    top: 55%;
+}
+
+button.owl-prev,button.owl-next {
+    font-size: 58px;
+    width: 60px;
+    height: 55px;
+    /* background: #ddd !IMPORTANT; */
+    text-align: center;
+    line-height: 55px;
+    position: absolute;
+    font-weight: 300;
+    color: #f3566b;
+    border-radius: 7px;
+    transition: 0.3s ease-in;
+    left: -183px;
+}
+
+button.owl-prev span, {
+    font-size: 70px;
+}
+
+button.owl-next {
+    left: -200px;
+}
+
+button.owl-prev span {
+    font-size: 70px;
+}
+
+section.fade_slide_section.sectionp {
+    display: none;
+}
+
+.awol_item img {
+    width: 100%;
+    height: 100%;
+}
+
+.awol_item {
+    height: 340px;
+}
+
+button.owl-prev i {
+    font-size: 50px;
+    color: #b0b9be;
+}
+
+button.owl-next i {
+    font-size: 50px;
+    color: #b0b9be;
+}
+
+button.owl-next {
+    top: 40px;
+}
+
+button.owl-prev {
+    left: -200px;
+}
+
+
+button.owl-prev {
+    top: -42px;
+}
+
+button.owl-prev:hover i,button.owl-next:hover i {
+    color: #80bd01;
+}
+/* .awol_carosel_area1 button.owl-prev:hover i,button.owl-next:hover i{
+    color: #b0b9be;
+}
+.awol_carosel_area1 button.owl-next i,.awol_carosel_area1 button.owl-prev i{
+    color: #80bd01;
+} */
